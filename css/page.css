@@ -1,0 +1,43 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0px;
+}
+
+.header{
+    padding-right:40px; 
+    height:100px;
+    background-color:#111111;
+}
+
+.title{
+    font-size:30px;
+    padding-top:36px;
+    color:#cccccc;
+    float:right;
+    margin: 0px 40px 0px 40px;
+    position:relative;
+}
+
+.title:hover{
+    font-size:35px;
+    color:#ffffff;
+}
+
+.title::after{
+    content:"";
+    display:block;
+    clear:both;
+}  
+
+
+.content{
+    height:900px;
+    background-image:url("../img/abc.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}       
